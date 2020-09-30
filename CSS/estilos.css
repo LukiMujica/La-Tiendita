@@ -1,0 +1,150 @@
+/* GENERALES */
+
+html {
+    font-size: 62.5%;
+}
+
+nav {
+    height: auto;
+    /*Junto a overflow: hidden; aplicará a nuestro elemento nav el mismo alto que el más alto de sus elementos hijos */
+    margin: 0 auto;
+    /* Centro el contenedor */
+    overflow: hidden;
+    text-align: left;
+    width: 1080px;
+    /* Defino el ancho de mi página */
+}
+
+header nav ul li a {
+    color: aqua;
+    font-weight: bold;
+}
+
+h1,
+h2 {
+    color: #e5989b;
+}
+
+footer {
+    color: #6d6875;
+    font-size: 14px;
+}
+
+body {
+    background-color: rgb(24, 26, 29);
+    margin: 0 auto;
+}
+
+hr {
+    border-color: aqua;
+}
+
+ul {
+    float: left;
+    list-style-type: none;
+    /* Elimino los estilos de lista */
+    padding: 0;
+    position: relative;
+    left: 50%
+}
+
+li {
+    list-style: none;
+    float: left;
+    position: relative;
+    right: 50%;
+}
+
+li a {
+    padding: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: aqua;
+}
+
+h1 {
+    letter-spacing: 3px;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+header,
+h1,
+h2 {
+    font-family: 'Roboto Slab', serif;
+    font-size: 2rem;
+}
+
+section,
+table {
+    font-family: 'Raleway', sans-serif;
+    font-size: 2rem;
+}
+
+.social {
+    font-size: 2rem;
+    color: #6d6875;
+}
+
+
+/* INDEX */
+
+.banner2 {
+    background-image: url(../Imágenes/LTJA/Backgrounds/65446.jpg);
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+/* NOSOTROS Y VERANO 2021*/
+
+.PrimerParrafoSecciones {
+    color: #ffb4a2;
+}
+
+.banner {
+    background-image: url(../Imágenes/LTJA/Backgrounds/20730.jpg);
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+/* PRODUCTOS */
+
+table {
+    color: #b5838d;
+    width: 800px;
+    text-align: center;
+    margin: 0 auto
+}
+
+
+/* CONTACTO */
+
+form {
+    margin: 0 auto;
+    width: 600px;
+}
+
+form fieldset p {
+    color: #e5989b;
+    font-size: 20px;
+}
+
+input {
+    font-size: 15px;
+}
