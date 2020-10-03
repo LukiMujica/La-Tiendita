@@ -6,49 +6,80 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nosotros</title>
     <link rel="stylesheet" type="text/css" href="CSS/estilos.css">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lustria&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/fc073e7f11.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
-    <header>
-        <nav>
-            <ul>
-                <li> <a href="index.html"> Home </a> </li>
-                <li> <a href="Nosotros.html"> Nosotros </a> </li>
-                <li> <a href="Productos.html"> Productos </a> </li>
-                <li><a href="NewArrivals.html"> New Arrivals </a></li>
-                <li> <a href="Contacto.html"> Contacto </a> </li>
-            </ul>
-        </nav>
-    </header>
-    <br>
-    <br>
-    <br>
-    <h1> Nuestra Historia </h1>
-    <main>
-        <section>
-            <br>
-            <p class="Historia"> Desde el 2 de noviembre de 1998 se abrieron las puertas de "La tiendita de joaquin" una humilde tienda que buscaba llevar articulos varios al barrio de San Cristobal, contabamos con varios articulos de bazar, libreria, indumentaria y hasta
-                juguetes. Luego de la mudanza que se realizo en 2005 logramos adquirir un local mas amplio y cambiamos el nombre a "la tiendita de joaquin y adriana" debido a la llegada de la nueva integrante de la familia. A partir de ese momento nos
-                enfocamos de lleno en la indumentaria en general. Hoy en dia ofrecemos vestimenta para todas las edades, tamaños y sexos. Nuestra misión es ofrecer la mejor calidad en vestimenta al mejor precio.</p>
-        </section>
-        <br>
-        <div align="Center">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.306491927753!2d-58.39149153154712!3d-34.62169426450622!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccbd0dccbc259%3A0x3693a6d1890aedf3!2sLa%20Tiendita%20de%20Joaquin%2C%20Adriana%20y%20Sofia!5e0!3m2!1ses-419!2sar!4v1601163301783!5m2!1ses-419!2sar"
-                width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-        </div>
-    </main>
+    <div class="contenedor">
+        <header class="header">
+            <div class="header_contenedor">
+                <a href="index.html">
+                    <img class="header_logo" src="IMG/Logo.png" alt="logo">
+                </a>
+                <nav class="menu">
+                    <ul class="menu_list">
+                        <li class="menu_item"><a class="menu_link" href="index.html"> Home </a></li>
+                        <li class="menu_item"><a class="menu_link" href="Nosotros.html"> Nosotros </a></li>
+                        <li class="menu_item"><a class="menu_link" href="Productos.html"> Productos </a>
+                            <ul class="menu_sublist">
+                                <li class="menu_subitem">
+                                    <a class="menu_sublink" href="SubProductos/Remeras.html"> Remeras </a>
+                                </li>
+                                <li class="menu_subitem">
+                                    <a class="menu_sublink" href="SubProductos/Camisas.html"> Camisas</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="menu_item"><a class="menu_link" href="NewArrivals.html"> New Arrivals </a></li>
+                        <li class="menu_item"><a class="menu_link" href="Contacto.html"> Contacto </a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <main class="main">
+            <div class="banner_nos">
+                <div class="banner_cont_nos">
+                    <div class="banner_titulos">
+                        <h1 class="banner_titulos_h1_nos">Nuestra Historia</h1>
 
-    <footer>Humberto 1º 1789 casi Av. Entre Ríos - CP 1103ADI - CABA. Tel: 011 5920 6169
+                    </div>
+                </div>
+            </div>
+            <div class="main_nos">
+                <section class="quiensomos">
+                    <div class="titulossecciones">
+                        <h2 class="banner_titulos_h2_nos"> Quienes somos?</h2>
+                    </div>
+                    <div>
+                        <p class="Historia"> Nuestra marca comenzó el 2 de noviembre de 1998 cuando por primera vez se abrieron las puertas de "La Tiendita de Joaquín", una tienda que buscaba llevar articulos varios al barrio de San Cristobal. En ese momento contábamos con
+                            varios articulos de bazar, libreria, indumentaria y hasta juguetes. En 2005 logramos adquirir un local mas amplio y cambiamos el nombre a "La Tiendita de Joaquin y Adriana" debido a la llegada de la nueva integrante de la familia.
+                            A partir de ese momento nos enfocamos de lleno en la indumentaria. Hoy en dia ofrecemos vestimenta para todas las edades, tamaños y sexos. Nuestra misión es ofrecer la mejor calidad en vestimenta al mejor precio.</p>
+                    </div>
+
+                    <br>
+                    <div class="titulossecciones" align="Center">
+                        <h3 class="banner_titulos_h3_nos">Nuestra Ubicacion:</h3>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.306491927753!2d-58.39149153154712!3d-34.62169426450622!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccbd0dccbc259%3A0x3693a6d1890aedf3!2sLa%20Tiendita%20de%20Joaquin%2C%20Adriana%20y%20Sofia!5e0!3m2!1ses-419!2sar!4v1601163301783!5m2!1ses-419!2sar"
+                            width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                    </div>
+                </section>
+            </div>
+        </main>
+    </div>
+    <footer class="footer">Humberto 1º 1789 casi Av. Entre Ríos - CP 1103ADI - CABA. Tel: 011 5920 6169
         <br>
         <div>
             <a href="https://www.instagram.com/glite.ok/"><i class="social fab fa-instagram"></i></a>
             <a href="https://www.facebook.com/tienditadejoaquinyadriana"> <i class="social fab fa-facebook"></i></a>
             <a href="http://wa.link/bzs1gw"><i class="social fab fa-whatsapp"></i></a>
         </div>
+        <div>
+            <p>Design by Lucas Mujica</p>
+        </div>
     </footer>
+    </div>
 </body>
 
 </html>

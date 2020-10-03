@@ -6,85 +6,87 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Productos </title>
     <link rel="stylesheet" type="text/css" href="CSS/estilos.css">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lustria&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/fc073e7f11.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
-    <header>
-        <nav>
-            <ul>
-                <li> <a href="index.html"> Home </a> </li>
-                <li> <a href="Nosotros.html"> Nosotros </a> </li>
-                <li> <a href="Productos.html"> Productos </a> </li>
-                <li><a href="NewArrivals.html"> New Arrivals </a></li>
-                <li> <a href="Contacto.html"> Contacto </a> </li>
-            </ul>
-        </nav>
-    </header>
 
-    <h1> Indumentaria </h1>
 
-    <table border="1px" cellpadding="15px" cellspacing="0px" width="100%">
-        <tr>
-            <th width="200px"> Prenda </th>
-            <th> Precio </th>
-            <th> Talles </th>
-        </tr>
-        <tr>
-            <td> <img src="../../../Imágenes/LTJA/CAMISUSKIS_files/Joggins.jpg" alt="Joggins Bebé" width="200px" height="200px"> </td>
-            <td> $350 </td>
-            <td>
-                <ol>
-                    <LI> XS </LI>
-                    <li> Small </li>
-                    <li> Medium </li>
-                    <li> Large </li>
-                    <li> XL </li>
-                </ol>
-            </td>
+    <div class="contenedor">
+        <header class="header">
+            <div class="header_contenedor">
+                <a href="index.html">
+                    <img class="header_logo" src="IMG/Logo.png" alt="logo">
+                </a>
+                <nav class="menu">
+                    <ul class="menu_list">
+                        <li class="menu_item"><a class="menu_link" href="index.html"> Home </a></li>
+                        <li class="menu_item"><a class="menu_link" href="Nosotros.html"> Nosotros </a></li>
+                        <li class="menu_item"><a class="menu_link" href="Productos.html"> Productos </a>
+                            <ul class="menu_sublist">
+                                <li class="menu_subitem">
+                                    <a class="menu_sublink" href="SubProductos/Remeras.html"> Remeras </a>
+                                </li>
+                                <li class="menu_subitem">
+                                    <a class="menu_sublink" href="SubProductos/Camisas.html"> Camisas</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="menu_item"><a class="menu_link" href="NewArrivals.html"> New Arrivals </a></li>
+                        <li class="menu_item"><a class="menu_link" href="Contacto.html"> Contacto </a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <main class="main">
 
-        </tr>
-        <tr>
-            <td> <img src="../../../Imágenes/LTJA/CAMISUSKIS_files/remeras.jpg" alt="Remeras" width="200px" height="200px"> </td>
-            <td> $900 </td>
-            <td>
-                <ol>
-                    <LI> XS </LI>
-                    <li> Small </li>
-                    <li> Medium </li>
-                    <li> Large </li>
-                    <li> XL </li>
-                </ol>
-            </td>
+            <div class="banner_prod">
+                <div class="banner_cont_nos">
+                    <div class="banner_titulos">
+                        <h1 class="banner_titulos_h1_prod">Indumentaria</h1>
 
-        </tr>
-        <tr>
-            <td> <img src="../../../Imágenes/LTJA/CAMISUSKIS_files/camisas.jpg" alt="Camisas" width="200px" height="200px"> </td>
-            <td> $1300 </td>
-            <td>
-                <ol>
-                    <LI> XS </LI>
-                    <li> Small </li>
-                    <li> Medium </li>
-                    <li> Large </li>
-                    <li> XL </li>
-                </ol>
-            </td>
+                    </div>
+                </div>
+            </div>
+            <section class="productos">
+                <table border="1px" cellpadding="15px" cellspacing="0px" width="100%">
+                    <tr>
+                        <th width="200px"> Prenda </th>
+                        <th> Precio </th>
+                        <th> Talles </th>
+                    </tr>
+                    <tr>
+                        <td> <img src="IMG/Joggins.jpg" alt="Joggins Bebé" width="200px" height="200px"> </td>
+                        <td> $350 </td>
+                        <td>
+                            <ol>
+                                <LI> XS </LI>
+                                <li> Small </li>
+                                <li> Medium </li>
+                                <li> Large </li>
+                                <li> XL </li>
+                            </ol>
+                        </td>
 
-        </tr>
-    </table>
+                    </tr>
 
-    <footer>Humberto 1º 1789 casi Av. Entre Ríos - CP 1103ADI - CABA. Tel: 011 5920 6169
-        <br>
-        <div>
-            <a href="https://www.instagram.com/glite.ok/"><i class="social fab fa-instagram"></i></a>
-            <a href="https://www.facebook.com/tienditadejoaquinyadriana"> <i class="social fab fa-facebook"></i></a>
-            <a href="http://wa.link/bzs1gw"><i class="social fab fa-whatsapp"></i></a>
-        </div>
-    </footer>
-
+                </table>
+            </section>
+        </main>
+        <footer class="footer">Humberto 1º 1789 casi Av. Entre Ríos - CP 1103ADI - CABA. Tel: 011 5920 6169
+            <br>
+            <div>
+                <a href="https://www.instagram.com/glite.ok/"><i class="social fab fa-instagram"></i></a>
+                <a href="https://www.facebook.com/tienditadejoaquinyadriana"> <i class="social fab fa-facebook"></i></a>
+                <a href="http://wa.link/bzs1gw"><i class="social fab fa-whatsapp"></i></a>
+            </div>
+            <div>
+                <p>Design by Lucas Mujica</p>
+            </div>
+        </footer>
+    </div>
 </body>
 
 </html>
