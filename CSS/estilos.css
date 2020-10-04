@@ -21,7 +21,7 @@ body {
     width: 100%;
 }
 
-.header {
+.encabezado {
     font-family: 'Lato', sans-serif;
     display: flex;
     flex-flow: row wrap;
@@ -33,21 +33,24 @@ body {
     position: fixed;
 }
 
-.header_contenedor {
+.encabezado_contenedor {
     width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.header_logo {
+.encabezado_logo {
     margin-left: 50px;
     display: flex;
     width: 100px;
     height: 100px;
 }
 
-.menu {
+
+/* Estilo del Menú */
+
+.menutop {
     height: 70px;
     background-color: rgb(163, 161, 161);
     border-radius: .5rem;
@@ -74,7 +77,7 @@ body {
 
 .menu_link {
     text-decoration: none;
-    display: block;
+    display: inline-block;
     padding: 1.5rem;
     text-align: center;
     font-size: 1.6rem;
@@ -82,8 +85,12 @@ body {
     font-weight: 800;
 }
 
+
+/* Cambiar color al pasar el cursor */
+
 header nav a:hover {
     color: yellow;
+    background-color: rgb(179, 177, 177)
 }
 
 .menu_item:hover ul {
@@ -119,7 +126,10 @@ header nav a:hover {
     justify-content: center;
 }
 
-.banner {
+
+/* Background de Index */
+
+.fondo {
     background-image: url(../IMG/BackgroundIndex.jpg);
     width: 100%;
     background-size: cover;
@@ -127,7 +137,7 @@ header nav a:hover {
     background-position: center;
 }
 
-.banner_cont {
+.fondo_cont {
     height: 100vh;
     display: flex;
     flex-flow: column;
@@ -136,12 +146,15 @@ header nav a:hover {
     justify-content: flex-end;
 }
 
-.banner_titulos {
+
+/* Estilo de los títulos de encabezados */
+
+.fondo_titulos {
     text-align: center;
     margin-bottom: 50vh;
 }
 
-.banner_titulos_h1 {
+.fondo_titulos_h1 {
     font-family: 'Lato', sans-serif;
     color: #444;
     font-weight: 800;
@@ -150,7 +163,7 @@ header nav a:hover {
     letter-spacing: 3px;
 }
 
-.banner_titulos_h2 {
+.fondo_titulos_h2 {
     font-family: 'Lato', sans-serif;
     font-size: 2rem;
     color: #555;
@@ -159,13 +172,16 @@ header nav a:hover {
     color: #777;
 }
 
-.banner_titulos_h3 {
+.fondo_titulos_h3 {
     font-family: 'Lato', sans-serif;
     font-size: 2rem;
     color: #555;
     font-weight: 600;
     color: #777;
 }
+
+
+/* Pie de Página */
 
 .footer {
     font-family: 'Lato', sans-serif;
@@ -184,10 +200,16 @@ table {
     font-size: 2rem;
 }
 
+
+/* Redes Sociales */
+
 .social {
     font-size: 2rem;
     color: #e6e6e6;
 }
+
+
+/* Estilo al pasar mouse de las redes sociales */
 
 .social:hover {
     color: black;
@@ -199,7 +221,10 @@ table {
 
 /* NOSOTROS */
 
-.banner_nos {
+
+/* Fondo de la sección */
+
+.fondo_nos {
     background-image: url(../IMG/BackgroundNos.jpg);
     width: 100%;
     background-size: cover;
@@ -207,7 +232,7 @@ table {
     background-position: top;
 }
 
-.banner_cont_nos {
+.fondo_cont_nos {
     height: 100vh;
     display: flex;
     flex-flow: column;
@@ -216,7 +241,7 @@ table {
     justify-content: flex-end;
 }
 
-.banner_titulos_h1_nos {
+.fondo_titulos_h1_nos {
     font-family: 'Lato', sans-serif;
     color: white;
     font-weight: 800;
@@ -239,7 +264,7 @@ table {
     margin: 10px;
 }
 
-.banner_titulos_h2_nos {
+.fondo_titulos_h2_nos {
     font-family: 'Lato', sans-serif;
     font-size: 4rem;
     color: #666;
@@ -248,7 +273,7 @@ table {
     color: #777;
 }
 
-.banner_titulos_h3_nos {
+.fondo_titulos_h3_nos {
     font-family: 'Lato', sans-serif;
     font-size: 3rem;
     color: #666;
@@ -256,6 +281,9 @@ table {
     margin-bottom: 15px;
     color: #777;
 }
+
+
+/* Estilo párrafo de quienes somos */
 
 .Historia {
     color: black;
@@ -273,7 +301,10 @@ table {
     flex-flow: column;
 }
 
-.banner_prod {
+
+/* Fondo de la sección Productos */
+
+.fondo_prod {
     background-image: url(../IMG/BackgroundProd.jpg);
     width: 100%;
     background-size: cover;
@@ -281,7 +312,7 @@ table {
     background-position: top;
 }
 
-.banner_titulos_h1_prod {
+.fondo_titulos_h1_prod {
     font-family: 'Lato', sans-serif;
     color: #444;
     font-weight: 800;
@@ -291,6 +322,9 @@ table {
     margin-bottom: 32vh;
 }
 
+
+/* Estilos de la tabla de productos */
+
 table {
     color: black;
     width: 800px;
@@ -299,9 +333,12 @@ table {
 }
 
 
-/* VERANO 2021*/
+/* NEW ARRIVALS*/
 
-.banner_newa {
+
+/* Fondo de la sección New Arrivals */
+
+.fondo_newa {
     background-image: url(../IMG/BackgroundNewA.jpg);
     height: 100%;
     width: 100%;
@@ -310,7 +347,7 @@ table {
     background-position: center;
 }
 
-.banner_titulos_h1_newa {
+.fondo_titulos_h1_newa {
     font-family: 'Lato', sans-serif;
     color: #444;
     font-weight: 800;
@@ -323,7 +360,10 @@ table {
 
 /* CONTACTO */
 
-.banner_contacto {
+
+/* Fondo de la sección Contacto */
+
+.fondo_contacto {
     background-image: url(../IMG/BackgroundCont.jpg);
     width: 100%;
     background-size: cover;
@@ -331,10 +371,22 @@ table {
     background-position: top;
 }
 
-.banner_titulos_cont {
+.fondo_titulos_cont {
     text-align: center;
     margin-bottom: 25vh;
 }
+
+.fondo_titulos_h1_cont {
+    font-family: 'Lato', sans-serif;
+    color: #444;
+    font-weight: 800;
+    text-align: center;
+    font-size: 5rem;
+    letter-spacing: 3px;
+}
+
+
+/* Estilos del Formulario */
 
 input {
     font-family: 'Lato', sans-serif;
@@ -379,13 +431,4 @@ input[type=reset] {
     text-decoration: none;
     margin: 4px 2px;
     width: 100%;
-}
-
-.banner_titulos_h1_cont {
-    font-family: 'Lato', sans-serif;
-    color: #444;
-    font-weight: 800;
-    text-align: center;
-    font-size: 5rem;
-    letter-spacing: 3px;
 }

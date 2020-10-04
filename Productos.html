@@ -15,22 +15,28 @@
 
 
     <div class="contenedor">
-        <header class="header">
-            <div class="header_contenedor">
+        <header class="encabezado">
+            <div class="encabezado_contenedor">
+                <!-- Logo -->
                 <a href="index.html">
-                    <img class="header_logo" src="IMG/Logo.png" alt="logo">
+                    <img class="encabezado_logo" src="IMG/Logo.png" alt="logo">
                 </a>
-                <nav class="menu">
+                <!-- Menú -->
+                <nav class="menutop">
                     <ul class="menu_list">
                         <li class="menu_item"><a class="menu_link" href="index.html"> Home </a></li>
                         <li class="menu_item"><a class="menu_link" href="Nosotros.html"> Nosotros </a></li>
                         <li class="menu_item"><a class="menu_link" href="Productos.html"> Productos </a>
+                            <!-- Submenú -->
                             <ul class="menu_sublist">
                                 <li class="menu_subitem">
-                                    <a class="menu_sublink" href="SubProductos/Remeras.html"> Remeras </a>
+                                    <a class="menu_sublink" href="Productos.html#Joggins"> Joggins</a>
                                 </li>
                                 <li class="menu_subitem">
-                                    <a class="menu_sublink" href="SubProductos/Camisas.html"> Camisas</a>
+                                    <a class="menu_sublink" href="Productos.html#Remeras"> Remeras </a>
+                                </li>
+                                <li class="menu_subitem">
+                                    <a class="menu_sublink" href="Productos.html#Camisas"> Camisas</a>
                                 </li>
                             </ul>
                         </li>
@@ -40,16 +46,18 @@
                 </nav>
             </div>
         </header>
+        <!-- Comienza el contenido -->
         <main class="main">
-
-            <div class="banner_prod">
-                <div class="banner_cont_nos">
-                    <div class="banner_titulos">
-                        <h1 class="banner_titulos_h1_prod">Indumentaria</h1>
+            <!-- Fondo -->
+            <div class="fondo_prod">
+                <div class="fondo_cont_nos">
+                    <div class="fondo_titulos">
+                        <h1 class="fondo_titulos_h1_prod">Indumentaria</h1>
 
                     </div>
                 </div>
             </div>
+            <!-- Tabla de Productos -->
             <section class="productos">
                 <table border="1px" cellpadding="15px" cellspacing="0px" width="100%">
                     <tr>
@@ -58,8 +66,21 @@
                         <th> Talles </th>
                     </tr>
                     <tr>
-                        <td> <img src="IMG/Joggins.jpg" alt="Joggins Bebé" width="200px" height="200px"> </td>
+                        <td id="Joggins"> <img src="IMG/Joggins.jpg" alt="Joggins Bebé" width="200px" height="200px"> </td>
                         <td> $350 </td>
+                        <td>
+                            <ol>
+                                <LI> XS </LI>
+                                <li> Small </li>
+                                <li> Medium </li>
+                                <li> Large </li>
+                                <li> XL </li>
+                            </ol>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td id="Camisas"> <img src="IMG/camisas.jpg" alt="Camisas" width="200px" height="200px"> </td>
+                        <td> $1300 </td>
                         <td>
                             <ol>
                                 <LI> XS </LI>
@@ -71,7 +92,20 @@
                         </td>
 
                     </tr>
+                    <tr>
+                        <td id="Remeras"> <img src="IMG/remeras.jpg" alt="Remeras" width="200px" height="200px"> </td>
+                        <td> $900 </td>
+                        <td>
+                            <ol>
+                                <LI> XS </LI>
+                                <li> Small </li>
+                                <li> Medium </li>
+                                <li> Large </li>
+                                <li> XL </li>
+                            </ol>
+                        </td>
 
+                    </tr>
                 </table>
             </section>
         </main>
