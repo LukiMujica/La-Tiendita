@@ -127,6 +127,23 @@ header nav a:hover {
 }
 
 
+/* Pie de Página */
+
+.footer {
+    font-family: 'Lato', sans-serif;
+    background-color: #791515;
+    width: 100%;
+    height: 75px;
+    color: #e6e6e6;
+    font-size: 14px;
+    text-align: center;
+    padding: 5px;
+}
+
+
+/* INDEX */
+
+
 /* Background de Index */
 
 .fondo {
@@ -180,20 +197,6 @@ header nav a:hover {
     color: #777;
 }
 
-
-/* Pie de Página */
-
-.footer {
-    font-family: 'Lato', sans-serif;
-    background-color: #791515;
-    width: 100%;
-    height: 75px;
-    color: #e6e6e6;
-    font-size: 14px;
-    text-align: center;
-    padding: 5px;
-}
-
 section,
 table {
     font-family: 'Lato', sans-serif;
@@ -214,9 +217,6 @@ table {
 .social:hover {
     color: black;
 }
-
-
-/* INDEX */
 
 
 /* NOSOTROS */
@@ -327,9 +327,30 @@ table {
 
 table {
     color: black;
-    width: 800px;
     text-align: center;
-    margin: 0 auto
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+}
+
+.titulos_tabla {
+    width: 200px;
+}
+
+.remeras {
+    height: 200px;
+}
+
+.camisas {
+    height: 200px;
+}
+
+.joggins {
+    height: 200px;
+}
+
+ol li {
+    list-style-type: none;
 }
 
 
