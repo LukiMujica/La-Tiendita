@@ -7,6 +7,8 @@
     <title> Productos </title>
     <link rel="stylesheet" type="text/css" href="CSS/estilos.css">
     <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Lustria&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/fc073e7f11.js" crossorigin="anonymous"></script>
 </head>
@@ -57,59 +59,46 @@
                     </div>
                 </div>
             </div>
-            <!-- Tabla de Productos -->
-            <section class="productos">
-                <table border="1px" cellpadding="15px" cellspacing="0px">
-                    <tr>
-                        <th> Prenda </th>
-                        <th class="titulos_tabla"> Precio </th>
-                        <th class="titulos_tabla"> Talles </th>
-                    </tr>
-                    <tr>
-                        <td id="Joggins"> <img class="joggins" src="IMG/Joggins.jpg " alt="Joggins Bebé "> </td>
-                        <td> $350 </td>
-                        <td>
-                            <ol>
-                                <LI> XS </LI>
-                                <li> Small </li>
-                                <li> Medium </li>
-                                <li> Large </li>
-                                <li> XL </li>
-                            </ol>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td id="Camisas"> <img class="camisas" src="IMG/camisas.jpg " alt="Camisas "> </td>
-                        <td> $1300 </td>
-                        <td>
-                            <ol>
-                                <LI> XS </LI>
-                                <li> Small </li>
-                                <li> Medium </li>
-                                <li> Large </li>
-                                <li> XL </li>
-                            </ol>
-                        </td>
+            <!-- Grilla de Productos -->
+            <section class="contenedorProductos estiloContenedor">
+                <div>
+                    <img id="Remeras" class="ropa" src="IMG/remeras.jpg" alt="Remeras">
+                    <p>Remera Niño</p>
+                    <p>$450</p>
+                </div>
+                <div><img class="ropa" src="img/remeras2.jpg" alt="Remeras2">
+                    <p>Remera Mujer</p>
+                    <p>$600</p>
+                </div>
+                <div><img id="Camisas" class="ropa" src="img/camisas.jpg" alt="Camisas">
+                    <p>Camisas</p>
+                    <p>$750</p>
+                </div>
+                <div>
+                    <img id="Joggins" class="ropa" src="img/Joggins.jpg" alt="Joggins">
+                    <p>Joggins Niño</p>
+                    <p>$600</p>
+                </div>
 
-                    </tr>
-                    <tr>
-                        <td id="Remeras"> <img class="remeras" src="IMG/remeras.jpg " alt="Remeras "> </td>
-                        <td> $900 </td>
-                        <td>
-                            <ol>
-                                <li> XS </li>
-                                <li> Small </li>
-                                <li> Medium </li>
-                                <li> Large </li>
-                                <li> XL </li>
-                            </ol>
-                        </td>
-
-                    </tr>
-                </table>
+                <div> <img class="ropa" src="img/Shortcito Niña.jpg" alt="Shorts">
+                    <p>Shorcito Niña</p>
+                    <p>$400</p>
+                </div>
+                <div><img class="ropa" src="img/Conjunto Niño.jpg" alt="Conjunto Niño">
+                    <p>Conjunto Niño</p>
+                    <p>$1000</p>
+                </div>
+                <aside class="estiloHijo">
+                    <h1 class="titulo_catalogo">Catalogo de Productos</h1>
+                    <p class="parrafos_catalogo">En esta sección encontrarás todos nuestros productos. Tenemos una gran variedad de talles, colores y diseños. </p>
+                    <p class="parrafos_catalogo"> Como indica nuestro slogan, nuestra prioridad número 1 es que el cliente pueda encontrar la mejor ropa al mejor precio y calidad.
+                    </p>
+                    <p class="parrafos_catalogo">Desde La Tiendita te deseamos un feliz día y que cada día tengas el look que te gusta tener. </p>
+                    <p class="footer_catalogo">Vistiendo a la familia since 1998</p>
+                </aside>
             </section>
         </main>
-        <footer class="footer ">Humberto 1º 1789 casi Av. Entre Ríos - CP 1103ADI - CABA. Tel: 011 5920 6169
+        <footer class="footer">Humberto 1º 1789 casi Av. Entre Ríos - CP 1103ADI - CABA. Tel: 011 5920 6169
             <br>
             <div>
                 <a href="https://www.instagram.com/glite.ok/ "><i class="social fab fa-instagram "></i></a>
