@@ -5,10 +5,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>La Tiendita de Joaquin y Adriana</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link rel="stylesheet" href="CSS/estilos.css" type="text/css">
     <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Lustria&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+
     <script src="https://kit.fontawesome.com/fc073e7f11.js" crossorigin="anonymous"></script>
 </head>
 
@@ -21,6 +23,7 @@
                 <a href="index.html">
                     <img class="encabezado_logo animate__animated animate__fadeInDown" src="IMG/Logo.png" alt="logo">
                 </a>
+
                 <!-- Menú -->
                 <nav class="menutop">
                     <ul class="menu_list">
@@ -58,18 +61,49 @@
             </div>
         </main>
 
-        <footer class="footer">Humberto 1º 1789 casi Av. Entre Ríos - CP 1103ADI - CABA. Tel: 011 5920 6169
+        <footer class="footer" id="footerindex">Humberto 1º 1789 casi Av. Entre Ríos - CP 1103ADI - CABA. Tel: 011 5920 6169
             <br>
             <div>
                 <a href="https://www.instagram.com/glite.ok/"><i class="social fab fa-instagram"></i></a>
                 <a href="https://www.facebook.com/tienditadejoaquinyadriana"> <i class="social fab fa-facebook"></i></a>
                 <a href="http://wa.link/bzs1gw"><i class="social fab fa-whatsapp"></i></a>
             </div>
+
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+                    Suscribite
+                    </button>
+
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="modal" id="exampleModalLabel">Suscripción</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body" id="modal">
+                            ¿Querés suscribirte para recibir nuestras ofertas?
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                            <button type="button" class="btn btn-primary">Guardar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
             <div>
                 <p>Design by Lucas Mujica</p>
             </div>
         </footer>
     </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
 </body>
 
 </html>
