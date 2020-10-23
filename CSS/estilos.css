@@ -142,7 +142,7 @@ header nav a:hover {
 }
 
 #footerindex {
-    height: 100px;
+    height: 110px;
 }
 
 #modal {
@@ -196,16 +196,16 @@ header nav a:hover {
 }
 
 .fondo_titulos_h1 {
-    font-family: "Lato", sans-serif;
+    font-family: "Montserrat", sans-serif;
     color: #444;
-    font-weight: 800;
+    font-weight: 700;
     text-align: center;
     font-size: 5rem;
     letter-spacing: 3px;
 }
 
 .fondo_titulos_h2 {
-    font-family: "Lato", sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-size: 2rem;
     color: #555;
     font-weight: 600;
@@ -249,9 +249,9 @@ section {
 }
 
 .fondo_titulos_h1_nos {
-    font-family: "Lato", sans-serif;
+    font-family: "Montserrat", sans-serif;
     color: white;
-    font-weight: 800;
+    font-weight: 700;
     text-align: center;
     font-size: 5rem;
     letter-spacing: 3px;
@@ -268,7 +268,11 @@ section {
 
 .titulossecciones {
     text-align: center;
-    margin: 10px;
+    margin: 20px;
+}
+
+.imagenes__nosotros {
+    text-align: center;
 }
 
 .fondo_titulos_h2_nos {
@@ -287,6 +291,7 @@ section {
     font-weight: 600;
     margin-bottom: 15px;
     color: #777;
+    text-align: center;
 }
 
 
@@ -300,6 +305,15 @@ section {
     font-size: 2rem;
 }
 
+.footer_catalogo {
+    font-family: "Sansita Swashed", cursive;
+    font-weight: bolder;
+    text-align: end;
+    margin-left: 50vh;
+    margin-right: 50vh;
+    font-size: 2rem;
+}
+
 
 /* PRODUCTOS */
 
@@ -307,7 +321,7 @@ section {
 /* Fondo de la sección Productos */
 
 .fondo_prod {
-    background-image: url(../IMG/BackgroundProd.jpg);
+    background-image: url(../IMG/backgroundproductos.jpg);
     width: 100%;
     background-size: cover;
     background-repeat: no-repeat;
@@ -315,85 +329,13 @@ section {
 }
 
 .fondo_titulos_h1_prod {
-    font-family: "Lato", sans-serif;
+    font-family: "Montserrat", sans-serif;
+    margin-bottom: 3vh;
     color: #444;
-    font-weight: 800;
+    font-weight: 700;
     text-align: center;
     font-size: 5rem;
     letter-spacing: 3px;
-    margin-bottom: 32vh;
-}
-
-
-/* Estilos de la grid de productos */
-
-.estiloContenedor {
-    border: solid 1px black;
-    background-color: #14213d;
-    color: whitesmoke;
-    padding: 10px;
-    font-family: "Open Sans", sans-serif;
-}
-
-.contenedorProductos {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 2fr 1fr 5fr 2fr;
-    grid-gap: 5px;
-}
-
-.contenedorProductos {
-    display: grid;
-    grid-template-areas: "aside div div" "aside div div" "aside div div";
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 0.5fr 0.5fr 0.5fr;
-}
-
-.ropa {
-    max-height: 197px;
-}
-
-section.estiloContenedor div {
-    color: #f5f5f5;
-    padding: 10px;
-    text-align: center;
-}
-
-section.estiloContenedor div:hover {
-    background-color: #90e0ef;
-    color: #444444;
-    font-weight: bolder;
-    text-align: center;
-}
-
-aside {
-    grid-area: aside;
-}
-
-.aside_catalogo {
-    position: relative;
-}
-
-.titulo_catalogo {
-    font-family: "Lato", sans-serif;
-    color: white;
-    font-weight: 800;
-    text-align: center;
-    font-size: 3rem;
-    letter-spacing: 3px;
-}
-
-.parrafos_catalogo {
-    font-family: "Open Sans", sans-serif;
-    font-weight: bolder;
-}
-
-.footer_catalogo {
-    font-family: "Sansita Swashed", cursive;
-    font-weight: bolder;
-    bottom: 10px;
-    position: absolute;
-    right: 10px;
 }
 
 
@@ -458,6 +400,7 @@ aside {
 
 .container {
     max-width: 1140px;
+    margin: 10px;
 }
 
 .row {
