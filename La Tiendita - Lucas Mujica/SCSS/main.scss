@@ -1,5 +1,13 @@
 /* GENERALES */
 
+// VARIABLES
+$color-primero: #444;
+$color-segundo: #555;
+$color-tercero: #777;
+$color-cuarto: #e6e6e6;
+$color-quinto: #fa5c65;
+$color-sexto: rgb(163, 161, 161);
+$color-septimo: #666;
 html {
     font-size: 62.5%;
 }
@@ -51,7 +59,7 @@ body {
 
 .menu__top {
     height: 65px;
-    background-color: rgb(163, 161, 161);
+    background-color: $color-sexto;
     border-radius: 0.5rem;
     margin-right: 25px;
     display: flex;
@@ -89,7 +97,7 @@ body {
 /* Cambiar color al pasar el cursor */
 
 header nav a:hover {
-    color: #fa5c65;
+    color: $color-quinto;
     background-image: linear-gradient(to right, #434343 0%, black 100%);
     text-decoration: none;
 }
@@ -105,7 +113,7 @@ header nav a:hover {
 }
 
 .menu__subitem {
-    background-color: rgb(163, 161, 161);
+    background-color: $color-sexto;
     margin: 0;
     padding: 10px;
 }
@@ -134,7 +142,7 @@ header nav a:hover {
     font-family: "Montserrat", sans-serif;
     width: 100%;
     height: 110px;
-    color: #e6e6e6;
+    color: $color-cuarto;
     font-size: 14px;
     text-align: center;
     padding: 5px;
@@ -154,15 +162,14 @@ header nav a:hover {
 
 .social {
     font-size: 2rem;
-    color: #e6e6e6;
+    color: $color-cuarto;
+    &:hover {
+        color: $color-quinto;
+    }
 }
 
 
 /* Estilo al pasar mouse de las redes sociales */
-
-.social:hover {
-    color: #fa5c65;
-}
 
 
 /* INDEX */
@@ -207,18 +214,18 @@ header nav a:hover {
 .fondo__titulos--h2 {
     font-family: "Montserrat", sans-serif;
     font-size: 2rem;
-    color: #555;
+    color: $color-segundo;
     font-weight: 600;
     margin-bottom: 15px;
-    color: #777;
+    color: $color-tercero;
 }
 
 .fondo__titulos_h3 {
     font-family: "Lato", sans-serif;
     font-size: 2rem;
-    color: #555;
+    color: $color-segundo;
     font-weight: 600;
-    color: #777;
+    color: $color-tercero;
 }
 
 section {
@@ -278,19 +285,19 @@ section {
 .fondo__titulos--h2nos {
     font-family: "Lato", sans-serif;
     font-size: 4rem;
-    color: #666;
+    color: $color-septimo;
     font-weight: 600;
     margin-bottom: 15px;
-    color: #777;
+    color: $color-tercero;
 }
 
 .fondo__titulos--h3nos {
     font-family: "Lato", sans-serif;
     font-size: 3rem;
-    color: #666;
+    color: $color-septimo;
     font-weight: 600;
     margin-bottom: 15px;
-    color: #777;
+    color: $color-tercero;
     text-align: center;
 }
 
@@ -331,7 +338,7 @@ section {
 .fondo__titulos--h1prod {
     font-family: "Montserrat", sans-serif;
     margin-bottom: 3vh;
-    color: #444;
+    color: $color-primero;
     font-weight: 700;
     text-align: center;
     font-size: 5rem;
@@ -355,7 +362,7 @@ section {
 
 .fondo__titulos--h1newa {
     font-family: "Lato", sans-serif;
-    color: #444;
+    color: $color-primero;
     font-weight: 800;
     text-align: center;
     font-size: 5rem;
@@ -383,7 +390,7 @@ section {
 
 .fondo__titulos--h1cont {
     font-family: "Montserrat", sans-serif;
-    color: #444;
+    color: $color-primero;
     font-weight: 700;
     text-align: center;
     font-size: 4.3rem;
@@ -421,31 +428,31 @@ section {
 }
 
 .centrar__texto {
-    text-align: center!important;
+    text-align: center !important;
 }
 
 .texto__mayuscula {
-    text-transform: uppercase!important;
+    text-transform: uppercase !important;
 }
 
 .punto__red {
-    color: #fa5c65!important;
+    color: $color-quinto !important;
 }
 
 .titulo__contacto {
     font-size: 40px;
     margin-top: 0;
     margin-bottom: 25px;
-    color: #314a5b!important;
+    color: #314a5b !important;
     font-weight: 700;
 }
 
 .a__contacto {
-    text-decoration: none!important;
+    text-decoration: none !important;
 }
 
 .logo__contacto {
-    color: #fa5c65;
+    color: $color-quinto;
 }
 
 .h6 {
@@ -476,31 +483,34 @@ p {
     font-family: 'Roboto Slab', serif;
 }
 
-.form__grupo input,
-.form__grupo textarea {
-    padding: 20px;
+.form__grupo {
+    input,
+    textarea {
+        padding: 20px;
+    }
 }
 
 .text-danger {
-    color: #dc3545!important;
+    color: #dc3545 !important;
 }
 
-.form__grupo textarea.form__control {
-    height: 248px;
-}
-
-.form__grupo input.form__control {
-    height: auto;
+.form__grupo {
+    textarea.form__control {
+        height: 248px;
+    }
+    input.form__control {
+        height: auto;
+    }
 }
 
 .form__control:focus {
-    border-color: #fa5c65;
+    border-color: $color-quinto;
     box-shadow: none;
 }
 
 .btn-danger {
-    background-color: #fa5c65;
-    border-color: #fa5c65;
+    background-color: $color-quinto;
+    border-color: $color-quinto;
 }
 
 .btn-xl {
@@ -511,18 +521,17 @@ p {
 .btn {
     font-weight: 700;
     margin-bottom: 10px;
+    &:hover {
+        background-image: linear-gradient(to right, #434343 0%, black 100%);
+    }
 }
 
-.btn:hover {
-    background-image: linear-gradient(to right, #434343 0%, black 100%);
-}
-
-::-webkit-input-placeholder {
+ ::-webkit-input-placeholder {
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
 }
 
-::selection {
-    background: #fa5c65;
+ ::selection {
+    background: $color-quinto;
     text-shadow: none;
 }
