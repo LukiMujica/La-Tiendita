@@ -1,0 +1,205 @@
+@import '../utilities/variables';
+// Tipografías
+%titulos {
+    font-weight: 700;
+    text-align: center;
+    font-size: 5rem;
+    letter-spacing: 3px;
+}
+
+%titulos2 {
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+%titulos3 {
+    font-size: 4rem;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+%titulos4 {
+    font-size: 3rem;
+    font-weight: 600;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+%historia {
+    color: $color-historia;
+    text-align: justify;
+    margin-left: 50vh;
+    margin-right: 50vh;
+    font-size: 2rem;
+}
+
+%historiafinal {
+    font-weight: bolder;
+    text-align: end;
+    margin-left: 50vh;
+    margin-right: 50vh;
+    font-size: 2rem;
+}
+
+.encabezado {
+    font-family: $title-font;
+}
+
+.menu__link {
+    text-align: center;
+    font-size: 1.6rem;
+    color: $color-historia;
+    font-weight: 800;
+}
+
+.menu__sublink {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.3rem;
+    color: black;
+}
+
+.fondo__titulos {
+    text-align: center;
+    margin-bottom: 50vh;
+}
+
+.fondo__titulos--h1 {
+    @extend %titulos;
+    font-family: $title-font3;
+    color: $color-titulos;
+}
+
+.fondo__titulos--h2 {
+    @extend %titulos2;
+    font-family: $title-font3;
+    color: $color-titulos2;
+    margin-bottom: 15px;
+}
+
+.fondo__titulos_h3 {
+    @extend %titulos2;
+    font-family: $title-font;
+    color: $color-titulos2;
+}
+
+.fondo__titulos--h1nos {
+    @extend %titulos;
+    font-family: $title-font3;
+    color: $color-titulonosotros;
+}
+
+.main__titulos {
+    text-align: center;
+    margin: 20px;
+}
+
+.imagenes__nosotros {
+    text-align: center;
+}
+
+.fondo__titulos--h2nos {
+    @extend %titulos3;
+    font-family: $title-font;
+    color: $color-titulos4;
+    color: $color-titulos3;
+}
+
+.fondo__titulos--h3nos {
+    @extend %titulos4;
+    font-family: $title-font;
+    color: $color-titulos4;
+    color: $color-titulos3;
+}
+
+.historia {
+    @extend %historia;
+}
+
+.historia__saludo {
+    @extend %historiafinal;
+    font-family: $title-font4;
+}
+
+.fondo__titulos--h1prod {
+    @extend %titulos;
+    font-family: $title-font3;
+    margin-bottom: 3vh;
+    color: $color-titulos;
+}
+
+.fondo__titulos--h1newa {
+    @extend %titulos;
+    font-family: $title-font;
+    color: $color-titulos;
+    margin-bottom: 21vh;
+}
+
+.fondo__titulos--cont {
+    text-align: center;
+}
+
+.fondo__titulos--h1cont {
+    font-family: $title-font3;
+    color: $color-titulos;
+    font-weight: 700;
+    text-align: center;
+    font-size: 4.3rem;
+    letter-spacing: 3px;
+    line-height: 1.75;
+}
+
+.row {
+    font-family: $title-font3;
+}
+
+.centrar__texto {
+    text-align: center !important;
+}
+
+.texto__mayuscula {
+    text-transform: uppercase !important;
+}
+
+.titulo__contacto {
+    font-size: 40px;
+    margin-top: 0;
+    margin-bottom: 25px;
+    color: #314a5b !important;
+    font-weight: 700;
+}
+
+.a__contacto {
+    text-decoration: none !important;
+}
+
+.h6 {
+    font-size: 1.6rem;
+}
+
+.form__control {
+    font-family: $title-font2;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+p {
+    line-height: 1.75;
+}
+
+::-webkit-input-placeholder {
+    font-family: $title-font3;
+    font-weight: 400;
+}
+
+.footer {
+    font-family: $title-font3;
+    font-size: 14px;
+    color: $color-footer;
+    text-align: center;
+}
+
+.social {
+    font-size: 2rem;
+}
