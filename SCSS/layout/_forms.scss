@@ -1,0 +1,73 @@
+@import '../utilities/variables';
+
+/* Estilos del Formulario */
+
+.container {
+    max-width: 1140px;
+    margin: 10px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.form__grupo {
+    margin-bottom: 25px;
+}
+
+.contactanos {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.punto__red {
+    color: $color-hover !important;
+}
+
+.logo__contacto {
+    color: $color-hover;
+}
+
+.consulta {
+    margin-top: 50px;
+    margin-bottom: 20px;
+    color: #8f959f;
+}
+
+.form__control {
+    display: block;
+    width: 100%;
+    color: #495057;
+    background-color: $color-backgroundsecciones;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+}
+
+.form__grupo {
+    input,
+    textarea {
+        padding: 20px;
+    }
+}
+
+.text-danger {
+    color: #dc3545 !important;
+}
+
+.form__grupo {
+    textarea.form__control {
+        height: 248px;
+    }
+    input.form__control {
+        height: auto;
+    }
+}
+
+.form__control:focus {
+    border-color: $color-hover;
+    box-shadow: none;
+}

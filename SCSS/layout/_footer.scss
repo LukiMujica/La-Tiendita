@@ -1,0 +1,25 @@
+@import '../utilities/variables';
+.footer {
+    width: 100%;
+    height: 110px;
+    padding: 5px;
+    background-image: linear-gradient(to right, #434343 0%, black 100%);
+}
+
+#footerindex {
+    height: 110px;
+}
+
+#modal {
+    color: $color-historia;
+}
+
+
+/* Redes Sociales */
+
+.social {
+    color: $color-footer;
+    &:hover {
+        color: $color-hover;
+    }
+}
