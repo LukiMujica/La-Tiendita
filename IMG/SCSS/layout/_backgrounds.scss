@@ -1,0 +1,78 @@
+@import '../utilities/variables';
+%fondos1 {
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+%fondos2 {
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+%fondocontenedor {
+    height: 100vh;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    justify-content: flex-end;
+}
+
+.fondo {
+    @extend %fondos1;
+    background-image: url(../IMG/Background1.jpg);
+}
+
+.fondo__cont {
+    @extend %fondocontenedor;
+}
+
+.fondo__nos {
+    @extend %fondos2;
+    background-image: url(../IMG/Background2.jpg);
+}
+
+.fondo__cont--nos {
+    @extend %fondocontenedor;
+}
+
+.main {
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.main__nos {
+    width: 100%;
+}
+
+.main__somos {
+    display: flex;
+    flex-flow: column;
+}
+
+.fondo__prod {
+    @extend %fondos2;
+    background-image: url(../IMG/background3.jpg);
+}
+
+.fondo__newa {
+    @extend %fondos1;
+    background-image: url(../IMG/Background4.jpg);
+    height: 100%;
+}
+
+.fondo__contacto {
+    @extend %fondos2;
+    background-image: url(../IMG/Background5.jpg);
+}
+
+.fondo__cont--flecha {
+    margin-bottom: 25vh;
+}

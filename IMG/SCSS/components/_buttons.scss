@@ -1,0 +1,23 @@
+@import '../utilities/variables';
+.btn-danger {
+    background-color: $color-hover;
+    border-color: $color-hover;
+}
+
+.btn-xl {
+    font-size: 18px;
+    padding: 20px 40px;
+}
+
+.btn {
+    font-weight: 700;
+    margin-bottom: 10px;
+    &:hover {
+        background-image: linear-gradient(to right, #434343 0%, black 100%);
+    }
+}
+
+::selection {
+    background: $color-hover;
+    text-shadow: none;
+}
