@@ -230,9 +230,8 @@ p {
 
 .btn-primary {
   color: #444;
-  background-color: #fa5c65;
-  border-color: #fa5c65;
-  padding: 20px;
+  background-color: #e6e6e6;
+  padding: 12px;
   margin: 10px;
   border: 1px solid;
   font-size: 1.5rem;
