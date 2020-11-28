@@ -493,7 +493,7 @@ p {
 @media screen and (min-width: 767.98px) {
   .menu__list {
     padding-left: 200px; }
-  menu__link {
+  .menu__link {
     font-size: 4rem; } }
 
 @media screen and (min-width: 991.98px) {
