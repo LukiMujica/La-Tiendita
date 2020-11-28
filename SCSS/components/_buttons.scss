@@ -36,3 +36,9 @@
     background: $color-hover;
     text-shadow: none;
 }
+
+@media screen and (max-width: 991.98px) {
+    .btn-primary {
+        padding: 10px;
+    }
+}

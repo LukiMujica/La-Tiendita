@@ -245,6 +245,10 @@ p {
   background: #fa5c65;
   text-shadow: none; }
 
+@media screen and (max-width: 991.98px) {
+  .btn-primary {
+    padding: 10px; } }
+
 .fondo {
   width: 100%;
   background-size: cover;
