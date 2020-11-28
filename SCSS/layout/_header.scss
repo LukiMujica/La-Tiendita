@@ -105,7 +105,7 @@
 }
 
 @media screen and (min-width: 991.98px) {
-    .header__logo {
+    .encabezado__logo {
         margin-left: 50px;
     }
 }
@@ -131,6 +131,12 @@
 @media screen and (min-width: 575.98px) {
     .menu__list {
         padding-left: 150px;
+    }
+}
+
+@media screen and (max-width: 575.98px) {
+    .encabezado__logo {
+        margin-left: 25px;
     }
 }
 

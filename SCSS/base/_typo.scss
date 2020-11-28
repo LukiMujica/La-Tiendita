@@ -94,8 +94,14 @@
     margin: 20px;
 }
 
+.main__iframe {
+    margin: 20px;
+}
+
 .imagenes__nosotros {
     text-align: center;
+    margin: 20px;
+    max-width: 100%;
 }
 
 .fondo__titulos--h2nos {
@@ -212,6 +218,15 @@ p {
     .historia__saludo {
         width: 80%;
         margin: 0 auto;
+    }
+    .fondo__titulos--h1 {
+        font-size: 3rem;
+    }
+    .fondo__titulos--h2 {
+        font-size: 1.5rem;
+    }
+    .fondo__titulos--h1nos {
+        font-size: 3.5rem;
     }
 }
 
