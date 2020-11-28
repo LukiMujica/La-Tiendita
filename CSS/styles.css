@@ -116,7 +116,7 @@ body {
 .fondo__titulos--h1newa {
   font-family: "Lato", sans-serif;
   color: #444;
-  margin-bottom: 21vh; }
+  margin-bottom: 40vh; }
 
 .fondo__titulos--cont {
   text-align: center; }
@@ -202,7 +202,9 @@ p {
     margin: 0 auto; }
   .historia__saludo {
     width: 80%;
-    margin: 0 auto; } }
+    margin: 0 auto; }
+  .fondo__titulos--h1newa {
+    margin-bottom: 15vh; } }
 
 @media screen and (max-width: 1400px) {
   .historia {
@@ -226,6 +228,19 @@ p {
   .btn:hover {
     background-image: linear-gradient(to right, #434343 0%, black 100%); }
 
+.btn-primary {
+  color: #444;
+  background-color: #fa5c65;
+  border-color: #fa5c65;
+  padding: 20px;
+  margin: 10px;
+  border: 1px solid;
+  font-size: 1.5rem;
+  font-family: "Montserrat", sans-serif; }
+
+.btn-primary:hover {
+  border-color: #fa5c65; }
+
 ::selection {
   background: #fa5c65;
   text-shadow: none; }
@@ -236,7 +251,7 @@ p {
   background-repeat: no-repeat;
   background-position: center; }
 
-.fondo__nos, .fondo__prod, .fondo__contacto {
+.fondo__nos, .fondo__newa, .fondo__prod, .fondo__contacto {
   width: 100%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -255,6 +270,9 @@ p {
 
 .fondo__nos {
   background-image: url(../IMG/Background2.jpg); }
+
+.fondo__newa {
+  background-image: url(../IMG/Background4.jpg); }
 
 .main {
   width: 100%;
@@ -464,7 +482,9 @@ p {
 
 @media screen and (max-width: 575.98px) {
   .encabezado__logo {
-    margin-left: 25px; } }
+    margin-left: 25px; }
+  .row {
+    max-width: 390px; } }
 
 @media screen and (min-width: 767.98px) {
   .menu__list {

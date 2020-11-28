@@ -36,6 +36,11 @@
     background-image: url(../IMG/Background2.jpg);
 }
 
+.fondo__newa {
+    @extend %fondos2;
+    background-image: url(../IMG/Background4.jpg);
+}
+
 .fondo__cont--nos {
     @extend %fondocontenedor;
 }

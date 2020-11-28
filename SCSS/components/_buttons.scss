@@ -17,6 +17,21 @@
     }
 }
 
+.btn-primary {
+    color: $color-titulos;
+    background-color: $color-hover;
+    border-color: $color-hover;
+    padding: 20px;
+    margin: 10px;
+    border: 1px solid;
+    font-size: 1.5rem;
+    font-family: $title-font3;
+}
+
+.btn-primary:hover {
+    border-color: $color-hover;
+}
+
 ::selection {
     background: $color-hover;
     text-shadow: none;

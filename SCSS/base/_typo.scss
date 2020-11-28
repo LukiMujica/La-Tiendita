@@ -138,7 +138,7 @@
     @extend %titulos;
     font-family: $title-font;
     color: $color-titulos;
-    margin-bottom: 21vh;
+    margin-bottom: 40vh;
 }
 
 .fondo__titulos--cont {
@@ -249,6 +249,9 @@ p {
     .historia__saludo {
         width: 80%;
         margin: 0 auto;
+    }
+    .fondo__titulos--h1newa {
+        margin-bottom: 15vh;
     }
 }
 
