@@ -247,7 +247,7 @@ p {
 
 @media screen and (max-width: 991.98px) {
   .btn-primary {
-    padding: 10px; } }
+    padding: 5px; } }
 
 .fondo {
   width: 100%;
@@ -488,7 +488,7 @@ p {
   .encabezado__logo {
     margin-left: 25px; }
   .row {
-    max-width: 390px; } }
+    max-width: 350px; } }
 
 @media screen and (min-width: 767.98px) {
   .menu__list {
